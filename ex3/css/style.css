@@ -9,6 +9,8 @@ header{
 background-color: aqua;
 width: 100%;
 height: 500px;
+display:flex;
+flex-direction: row;
 padding-top: 15px;
 }
 nav{
@@ -30,9 +32,51 @@ nav #logo img{
     height:75px;
 }
 
-nav ul li{
+nav ul li {
 
     color: aliceblue;
-    front: size 16px;
+    font-size:16px;
     font-family: Montserrat,sans-serif;
+    list-style: none;
+    float: left;
+}
+
+
+nav ul{
+
+display: flex;
+flex-direction: row;
+margin: 0;
+padding: 0;
+float: right;
+}
+
+nav ul li a{
+text-decoration: line-through;
+}
+
+nav #menu_principal{
+
+    float: left;
+}
+
+ #menu_principal li span{
+font-family: Montserrat, sans-serif;
+font-size: 11px;
+color: rgb(134, 134, 134);
+margin-right: 3px;
+margin-top: 60px;
+
+ }
+
+#menu_principal li a{
+
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#trabalhos{
+
+   background-color: blue; 
 }
